@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Для тебя</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scene">
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+
+      <button id="startButton" class="start-button" type="button">Начать</button>
+
+      <div id="messageBox" class="message-box hidden" aria-live="polite">
+        <div id="textContainer" class="text-container"></div>
+
+        <div id="finalMessage" class="final-message hidden">
+          <div class="final-heart-wrap">
+            <div id="heartFireworks" class="heart-fireworks" aria-hidden="true"></div>
+            <div class="final-heart" aria-hidden="true"></div>
+          </div>
+          <p class="final-text">ты моя любовь на всегда</p>
+        </div>
+      </div>
+
+      <button id="nextButton" class="secondary-button hidden" type="button">Далее</button>
+      <button id="loveButton" class="secondary-button hidden" type="button">Люблю тебя</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
