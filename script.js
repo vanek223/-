@@ -7,7 +7,7 @@ const finalMessage = document.getElementById('finalMessage');
 const heartFireworks = document.getElementById('heartFireworks');
 
 const loveLines = [
-  'моя любимая девочка, ты самая лучашя девушка в мире солнце',
+  'моя любимая девочка, ты самая лучшая девушка в мире солнце',
   'ты моя радость и счастье, моя любовь и вдохновение',
   'и ты тот самый лучик солнца в самые темные дни',
   'и я благодарю судьбу, что она подарила мне тебя',
